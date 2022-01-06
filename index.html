@@ -16,7 +16,7 @@
 
 <body class="container-fluid">
   <!--Website bg-->
-  <div class="view" style="background-image: url('./lightbubblebg.png'); background-repeat: repeat; background-size: 100%; background-position: center center;">
+  <div class="view" style="background-image: url('./lightbubblebg.png'); background-repeat: repeat; background-size: 100%;">
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand col-4 fw-bold ms-4">Navigation</a>
@@ -93,21 +93,33 @@
           <div class="presentation">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo diam ut tortor rutrum fringilla. Ut sed pretium lorem, in lacinia magna. Mauris pellentesque, sem ac aliquet placerat, neque ligula molestie metus, non pharetra est nunc et ligula. Sed a nunc mi. Fusce sollicitudin egestas eros id porttitor. Donec lorem lacus, aliquet sed ornare eget, consectetur sit amet est. Duis varius arcu ac erat lobortis, eu elementum velit rutrum. Suspendisse ut tincidunt ante. Proin id quam sit amet ligula vulputate gravida. Curabitur rhoncus luctus porttitor. Vivamus molestie nibh in scelerisque varius. Vestibulum euismod mauris eu velit malesuada, nec rhoncus purus congue. Praesent mollis sed odio vel finibus. Ut imperdiet tempor mauris. Pellentesque porta, augue vitae efficitur sollicitudin, metus dolor posuere metus, non hendrerit sapien erat eget est.</p>
           </div>
-          <!--Plusieurs card 1 par ligne en mobile, 3 sur ecran large-->
-          <div class="row">
-            <article class="card col-4">
-              Une première card avec img au top et lien vers evenements
+          <!--Plusieurs card 1 par ligne en mobile, 2 sur tablette, 3 sur ecran large-->
+          <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-3 row-cols-sm-1 justify-content-center">
+            <article class="card col me-3">
+              <img src="./seniortea.jpg" class="card-img-top mt-1 img-fluid" alt="event">
+              <div class="card-body">
+              <h5 class="card-title">L'evenementiel repensé pour vous</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo diam ut tortor rutrum fringilla. Ut sed pretium lorem, in lacinia magna.</p>
+              <a href="#" class="btn btn-primary ">Voir nos prochains evenements</a>
             </article>
-            <article class="card col-4">
-              Une deuxième card img top avec lien vers la présentation des bénévoles (inactif)
+            <article class="card col me-3">
+              <img src="./volunteer.jpg" class="card-img-top mt-1 img-fluid" alt="benevoles">
+              <div class="card-body">
+              <h5 class="card-title">Nos bénévoles</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo diam ut tortor rutrum fringilla. Ut sed pretium lorem, in lacinia magna.</p>
+              <a href="#" class="btn btn-primary ">Presentation de nos bénévoles</a>
             </article>
-            <article class="card col-4">
-              Une troisième card img top avec lien vers fenêtre modale pour postuler au bénévolat/faire un don
+            <article class="card col">
+              
+              <div class="card-body">
+              <h5 class="card-title">Une demande, un simple message à nous envoyer ?</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo diam ut tortor rutrum fringilla. Ut sed pretium lorem, in lacinia magna.</p>
+              <a href="#" class="btn btn-primary ">Accéder au formulaire de contact</a>
             </article>
           </div>
         </main>
       </div>
-
+      <!--Footer fixe-->
       <footer class="row">
         <div class="col">Le footer fixé en bas de page</div>
       </footer>
