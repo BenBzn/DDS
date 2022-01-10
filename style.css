@@ -12,6 +12,7 @@ h1 {
 .presentation {
   margin-top: 3em;
   padding: 2px;
+  font-size: 1em;
 }
 
 .carousel {
@@ -24,5 +25,10 @@ h1 {
 
 footer {
   background: lightskyblue;
-  padding: 30px;
+  padding: 5px;
+}
+
+.ddssimple {
+  width: 140px;
+  height: 100px;
 }
