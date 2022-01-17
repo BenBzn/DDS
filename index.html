@@ -14,114 +14,122 @@
 
 <body class="container-fluid">
   <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand col-4 fw-bold ms-4">Navigation</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" &² aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./events.html">Nos évènements à venir</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Notre équipe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Contacts</a>
-          </li>
-        </ul>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand col-4 fw-bold ms-4">Navigation</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" &² aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./events.html">Nos évènements à venir</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Notre équipe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Contacts</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <div class="row ">
+      <!--Logo DDS-->
+      <div class="logo col-1">
+        <a href="./index.html">
+          <img class="ddslogo" src="./images/DDSlogo2.png" alt="ddslogo">
+        </a>
       </div>
-    </nav>
-    <main>
-      <div class="row ">
-        <!--Logo DDS-->
-        <div class="logo col-1">
-          <a href="./index.html">
-            <img class="ddslogo" src="./images/DDSlogo2.png" alt="ddslogo">
-          </a>
-        </div>
-        <!--Main title-->
-        <div class="col maintitle">
-          <h1>Association évènementiel pour seniors</h1>
-        </div>
+      <!--Main title-->
+      <div class="col maintitle">
+        <h1>Association évènementiel pour seniors</h1>
       </div>
-      <!--Caroussel-->
-      <div class="row">
-        <div id="demo" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    <!--Caroussel-->
+    <div class="row">
+      <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/smilingseniorcouple.jpg" alt="smile" class="d-block mx-auto img-fluid">
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./images/smilingseniorcouple.jpg" alt="smile" class="d-block mx-auto img-fluid">
-            </div>
-            <div class="carousel-item">
-              <img src="./images/seniordancing.jpg" alt="dance" class="d-block mx-auto img-fluid">
-            </div>
-            <div class="carousel-item">
-              <img src="./images/oldmanmeme.jpg" alt="meme" class="d-block mx-auto img-fluid">
-            </div>
+          <div class="carousel-item">
+            <img src="./images/seniordancing.jpg" alt="dance" class="d-block mx-auto img-fluid">
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </button>
+          <div class="carousel-item">
+            <img src="./images/party.jpg" alt="party" class="d-block mx-auto img-fluid">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
       </div>
-
-
-      <!--Presentation de l'assoc-->
-      <section>
-        <h2>Qui sommes-nous ?</h2>
-        <div class="presentation">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo diam ut tortor rutrum fringilla.</p>
-          <p>Ut sed pretium lorem, in lacinia magna. Mauris pellentesque, sem ac aliquet placerat, neque ligula
-            molestie metus, non pharetra est nunc et ligula. Sed a nunc mi. Fusce sollicitudin egestas eros id
-            porttitor. Donec lorem lacus, aliquet sed ornare eget, consectetur sit amet est. Duis varius arcu ac erat
-            lobortis, eu elementum velit rutrum.</p>
-          <p>Suspendisse ut tincidunt ante. Proin id quam sit amet ligula vulputate gravida. Curabitur rhoncus luctus
-            porttitor. Vivamus molestie nibh in scelerisque varius. Vestibulum euismod mauris eu velit malesuada, nec
-            rhoncus purus congue. Praesent mollis sed odio vel finibus. Ut imperdiet tempor mauris. Pellentesque porta,
-            augue vitae efficitur sollicitudin, metus dolor posuere metus, non hendrerit sapien erat eget est.</p>
-        </div>
-        <!--Plusieurs card 1 par ligne en mobile, 2 sur tablette, 3 sur ecran large-->
-        <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-3 row-cols-1 justify-content-center">
-          <article class="card col me-3">
-            <img src="./images/seniorfun.jpg" class="card-img-top mt-1 img-fluid" alt="event">
-            <div class="card-body d-flex flex-column">
-              <h4 class="card-title">L'evenementiel repensé pour vous</h5>
-              <p class="card-text">Parce que nous savons qu'à tout âge on aime découvrir et s'amuser, nous mettons régulièrement en place de nombreux évènements adaptés à nos jeunes seniors !</p>
-              <p class="card-text">Du thé dansant au repas spectacle, du week-end détente au séjour vacance, tout y passe ! Etant donné que nos évènements sont crées à l'échelle nationale, un service additionnel de transport vous sera proposé selon votre localisation et vos possibilités : après votre inscription, un membre de l'équipe prendra contact avec vous.</p>
+    </div> 
+    <!--Presentation de l'assoc-->
+    <section>
+      <h2>Qui sommes-nous ?</h2>
+      <div class="presentation">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo diam ut tortor rutrum fringilla.</p>
+        <p>Ut sed pretium lorem, in lacinia magna. Mauris pellentesque, sem ac aliquet placerat, neque ligula
+          molestie metus, non pharetra est nunc et ligula. Sed a nunc mi. Fusce sollicitudin egestas eros id
+          porttitor. Donec lorem lacus, aliquet sed ornare eget, consectetur sit amet est. Duis varius arcu ac erat
+          lobortis, eu elementum velit rutrum.</p>
+        <p>Suspendisse ut tincidunt ante. Proin id quam sit amet ligula vulputate gravida. Curabitur rhoncus luctus
+          porttitor. Vivamus molestie nibh in scelerisque varius. Vestibulum euismod mauris eu velit malesuada, nec
+          rhoncus purus congue. Praesent mollis sed odio vel finibus. Ut imperdiet tempor mauris. Pellentesque porta,
+          augue vitae efficitur sollicitudin, metus dolor posuere metus, non hendrerit sapien erat eget est.</p>
+      </div>
+      <!--Plusieurs card 1 par ligne en mobile, 2 sur tablette, 3 sur ecran large-->
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-3 row-cols-1 justify-content-center">
+        <article class="card col me-3">
+          <img src="./images/seniorfun.jpg" class="card-img-top mt-1 img-fluid" alt="event">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title">L'evenementiel repensé pour vous</h5>
+              <p class="card-text">Parce que nous savons qu'à tout âge on aime découvrir et s'amuser, nous mettons
+                régulièrement en place de nombreux évènements adaptés à nos jeunes seniors !</p>
+              <p class="card-text">Du thé dansant au repas spectacle, du week-end détente au séjour vacance, tout y
+                passe ! Etant donné que nos évènements sont crées à l'échelle nationale, un service additionnel de
+                transport vous sera proposé selon votre localisation et vos possibilités : après votre inscription, un
+                membre de l'équipe prendra contact avec vous.</p>
               <a href="./events.html" class="btn btn-info mt-auto align-self-center">Voir nos prochains évènements</a>
-          </article>
-          <article class="card col me-3">
-            <img src="./images/help.jpg" class="card-img-top mt-4 img-fluid" alt="benevoles">
-            <div class="card-body d-flex flex-column">
-              <h4 class="card-title mt-4">Nos équipes</h5>
-              <p class="card-text">Parce qu'un évènements sans accompagnement, ça n'a pas de sens ! Nos équipes sont là pour vous accompagner  Ils vous accompagnede A à Z. Tantôt chauffeur, tantôt animateurs, ils savent ( presque ) tout faire !</p>
-              <p class="card-text">Disponibles aux 4 coins de la France, ils n'ont qu'un seul objectif : vous faire passer des moments rempli de joie, de découvertes et de rencontres.ront et feront en sorte que l'organisation soit parfaite.</p>
+        </article>
+        <article class="card col me-3">
+          <img src="./images/help.jpg" class="card-img-top mt-4 img-fluid" alt="benevoles">
+          <div class="card-body d-flex flex-column">
+            <h4 class="card-title mt-4">Nos équipes</h5>
+              <p class="card-text">Parce qu'un évènements sans accompagnement, ça n'a pas de sens ! Nos équipes sont là
+                pour vous accompagner Ils vous accompagnede A à Z. Tantôt chauffeur, tantôt animateurs, ils savent (
+                presque ) tout faire !</p>
+              <p class="card-text">Disponibles aux 4 coins de la France, ils n'ont qu'un seul objectif : vous faire
+                passer des moments rempli de joie, de découvertes et de rencontres.ront et feront en sorte que
+                l'organisation soit parfaite.</p>
               <a href="#" class="btn btn-info mt-auto align-self-center">Presentation de notre équipe d'animation</a>
-          </article>
-          <article class="card col">
-            <div class="card-body d-flex flex-column">
-              <img src="./images/contact.jpeg" class="card-img-top img-fluid" alt="contact">
-              <h4 class="card-title mt-4">Un petit mot, une question à nous envoyer ?</h5>
-              <p class="card-text">Parce que votre avis est important, et que toutes vos interrogations méritent une réponse précise pour dissiper vos derniers doute, n'hésitez pas à nous contacter ! 
-              <p class="card-text">Un formulaire de contact est mis en place pour vous. Il y est également possible de demander un rappel téléphonique.</p>
+        </article>
+        <article class="card col">
+          <div class="card-body d-flex flex-column">
+            <img src="./images/contact.jpeg" class="card-img-top img-fluid" alt="contact">
+            <h4 class="card-title mt-4">Un petit mot, une question à nous envoyer ?</h5>
+              <p class="card-text">Parce que votre avis est important, et que toutes vos interrogations méritent une
+                réponse précise pour dissiper vos derniers doute, n'hésitez pas à nous contacter !
+              <p class="card-text">Un formulaire de contact est mis en place pour vous. Il y est également possible de
+                demander un rappel téléphonique.</p>
               <a href="#" class="btn btn-info mt-auto align-self-center ">Accéder au formulaire de contact</a>
-          </article>
-        </div>
-      </section>
-    </main>
+        </article>
+      </div>
+    </section>
+  </main>
   <!--Footer fixe-->
   <footer class="row mt-4">
     <div class="col-5 align-self-center">©B.Buzin, projet fictif pour Studi</div>
