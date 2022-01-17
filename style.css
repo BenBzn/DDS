@@ -1,9 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media screen and (max-width: 600px) {
+  #hiddenimg {
+    display: none;
+  }
+}
+
+/*@media screen and (max-width: 700px) {
+ td, th {
+    font-size: 1.8em;
+  }
+  .btnevent {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ td, th {
+    font-size: 3em;
+  }
+  .btnevent {
+    font-size: 2em;
+  }
+} 
+*/
+
+
+body {
+  background-image: url(./lightbubblebg.png);
+
+}
+
+table {
+  width: 50%;
+}
 
 .logo {
   width: 30em;
   margin-top: 4em;
-  
 }
 
 h1 {
@@ -17,13 +52,22 @@ h1 {
 }
 
 .presentation {
-  margin-top: 3em;
-  padding: 2px;
-  font-size: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  padding: 1em;
+  font-size: 1.1em;
+  background-color: hsla(199, 65%, 54%, 0.51);
+  
+  
 }
 
+p, article, td {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 .carousel {
-  margin-top: 1.5em;;
+  margin-top: 1.5em;
 }
 
 h1 {
@@ -32,10 +76,27 @@ h1 {
 
 footer {
   background: lightskyblue;
-  padding: 5px;
+  padding: 4px;
+  width: 100%;
 }
 
 .ddssimple {
-  width: 140px;
-  height: 100px;
+  width: 6em;
+  height: 6em;
 }
+
+
+.facebook, .twitter, .youtube {
+  width: 2em;
+}
+
+.thermal, .compostelle, .dordogne, .newyear {
+width: 25em;
+height: 20em;
+}
+
+nav {
+  width: 100%;
+}
+
+
